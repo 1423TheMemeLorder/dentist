@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .collapsible {
+            background-color: #0d6efd;
+            color: white;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            border-radius: 10px;
+        }
+
+        .active,
+        .collapsible:hover {
+            background-color: #80b2f2;
+        }
+
+        .content {
+            padding: 0 18px;
+            display: none;
+            overflow: hidden;
+            background-color: #f1f1f1;
+        }
+
+        .spacer {
+
+            margin-top: 10px;
+
+
+        }
+
+        .butoni {
+            border-radius: 10px;
+            background-color: #0d6efd;
+            border: 0px;
+            color: white;
+
+        }
+
+        .butoni:hover {
+            background-color: #8899b8;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Tests</h2>
+
+
+
+
+    <!-- Open Collapsible    -->
+    <button type="button" class="collapsible">Click Here</button>
+    <div class="content">
+        <form action="#" style="padding-top: 10px;">
+            <p>Percussion</p>
+            <input type="checkbox" id="OTest" name="OTest" value="OTest">
+            <label for="OTest">O</label>
+            <input type="checkbox" id="VTest" name="VTest" value="VTest">
+            <label for="VTest">V</label>
+            <input type="checkbox" id="LTest" name="LTest" value="LTest">
+            <label for="LTest">L</label>
+            <input type="checkbox" id="ClearSound" name="ClearSound" value="ClearSound">
+            <label for="ClearSound">Clear Sound</label><br><br>
+
+
+
+
+        </form>
+
+        <!-- Open Collapsible  End  -->
+
+
+
+
+
+        <!--Palpation B-->
+        <form action="#" style="padding-top: 10px;">
+            <p>Palpation B</p>
+            <input type="checkbox" id="Cervical" name="Cervical" value="Cervical">
+            <label for="Cervical">Cervical</label>
+            <input type="checkbox" id="Apical" name="Apical" value="Apical">
+            <label for="Apical">Apical</label><br>
+
+        </form>
+        <!--Palpation B End-->
+
+
+
+
+
+
+
+
+        <!--Palpation L -->
+
+        <form action="#" style="padding-top: 10px;">
+            <p>Palpation L</p>
+            <input type="checkbox" id="CervicalL" name="CervicalL" value="CervicalL">
+            <label for="CervicalL">Cervical</label>
+            <input type="checkbox" id="Apical" name="ApicalL" value="ApicalL">
+            <label for="ApicalL">Apical</label>
+
+
+
+
+
+
+        </form>
+
+
+        <!--Palpation L End-->
+
+
+
+
+        <!--
+            Pressure
+        -->
+
+        <form action="#" style="padding-top: 10px;">
+            <p>Pressure</p>
+            <input type="checkbox" id="OTest" name="OPressure" value="OPressure">
+            <label for="OPressure">Oc</label>
+            <input type="checkbox" id="RPressure" name="RPressure" value="RPressure">
+            <label for="RPressure">R</label>
+            <input type="checkbox" id="LTest" name="LPressure" value="LPressure">
+            <label for="LPressure">L</label>
+
+
+
+
+
+
+        </form>
+
+
+        <!--
+            Pressure End
+        -->
+
+        <!--
+          Pain on Loosening 
+        -->
+
+
+
+        <form action="#" style="padding-top: 10px;">
+            <div>
+                <br>
+                <label>Pain on loosening</label>
+                <input type="number" id="PainLoose" name="PainLoose" min="0" max="100">
+
+            </div>
+
+
+
+        </form>
+
+
+
+
+        <!-- 
+          Pain on Loosening end
+        -->
+
+
+
+        <!--
+         Electrloal Test
+        -->
+
+
+
+
+        <form action="#" style="padding-top: 10px;">
+            <div>
+                <br>
+                <label>Electrloal Test</label>
+                <input type="number" id="Electrloal" name="Electrloal" min="0" max="100">
+
+            </div>
+
+
+
+        </form>
+
+
+
+
+        <!--
+         Electrloal Test End
+        -->
+
+
+
+        <!--
+                Cold Test
+        -->
+
+        <form action="#" style="padding-top: 10px;">
+            <p>Cold Test</p>
+            <input type="checkbox" id="NoReamanence" name="NoReamanence" value="NoReamanence">
+            <label for="NoReamanence">Without Reamanence</label>
+            <input type="checkbox" id="Reamanence" name="Reamanence" value="Reamanence">
+            <label for="Reamanence">With Reamanence</label>
+            <input type="checkbox" id="Deplayed" name="Deplayed" value="Deplayed">
+            <label for="Deplayed">Deplayed</label>
+
+
+
+
+
+
+        </form>
+
+
+
+
+
+        <!--
+                  Cold Test End
+        -->
+
+
+
+        <!--
+                  Warm Test
+        -->
+
+        <form action="#" style="padding-top: 10px;">
+            <div>
+                <br>
+                <label>Warm Test</label>
+                <input type="number" id="WarmTest" name="WarmTest" min="0" max="100">
+
+            </div>
+
+
+
+        </form>
+
+        <!--
+                  Warm Test End
+        -->
+
+
+
+
+        <form action="#" style="padding-top: 10px;">
+            <div>
+                <br>
+                <label>Dental hyperesthesia</label>
+                <input type="number" id="hyperesthesia" name="hyperesthesia" min="0" max="100">
+
+            </div>
+
+
+
+        </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <h2>Dental Examination</h2>
+
+    <button type="button" class="collapsible spacer">Click Here</button>
+    <div class="content">
+        <form action="#" style="padding-top: 10px;">
+
+            <input type="checkbox" id="CariousLesion" name="CariousLesion" value="CariousLesion">
+            <label for="CariousLesion">Carious Lesion</label>
+
+
+            <input type="checkbox" id="NonCariousLesion" name="NonCariousLesion" value="NonCariousLesion">
+            <label for="NonCariousLesion">Non Carious Lesion</label>
+
+
+            <input type="checkbox" id="LTest" name="Restoration" value="Restoration">
+            <label for="Restoration">Restoration</label>
+
+            <input type="checkbox" id="nonrestored" name="nonrestored" value="nonrestored">
+            <label for="nonrestored">Non restored loss at structure</label>
+
+            <input type="checkbox" id="ToothFracture" name="ToothFracture" value="ToothFracture">
+            <label for="ToothFracture">Tooth Fracture</label>
+
+
+            <input type="checkbox" id="Crack" name="Crack" value="Crack">
+            <label for="Crack">Crack</label>
+
+
+            <input type="checkbox" id="Discoloration" name="Discoloration" value="Discoloration">
+            <label for="Discoloration">Discoloration</label>
+
+
+
+            <input type="checkbox" id="Oclusion" name="Oclusion" value="Oclusion">
+            <label for="Oclusion">Oclusion</label>
+
+
+
+            <input type="checkbox" id="ToothMalposition" name="ToothMalposition" value="ToothMalposition">
+            <label for="ToothMalposition">Tooth Malposition</label>
+
+        </form>
+    </div>
+
+
+
+    <!--       Periodontal & Mucosal Examination
+         -->
+
+
+
+    <h2>Periodontal & Mucosal Examination
+    </h2>
+
+    <button type="button" class="collapsible spacer">Click Here</button>
+    <div class="content">
+        <form action="#" style="padding-top: 10px;">
+
+            <input type="checkbox" id="PeriodontalProbing" name="PeriodontalProbing" value="PeriodontalProbing">
+            <label for="PeriodontalProbing">Periodontal Probing</label>
+
+
+            <input type="checkbox" id="Mobility" name="Mobility" value="Mobility">
+            <label for="Mobility">Mobility</label>
+
+
+            <input type="checkbox" id="GingivalIndex" name="GingivalIndex" value="GingivalIndex">
+            <label for="GingivalIndex">Gingival Index</label>
+
+            <input type="checkbox" id="PlaqueIndex" name="PlaqueIndex" value="PlaqueIndex">
+            <label for="PlaqueIndex">Plaque Index</label>
+
+            <input type="checkbox" id="Suppuration" name="Suppuration" value="Suppuration">
+            <label for="Suppuration">Suppuration</label>
+
+
+            <input type="checkbox" id="notable" name="notable" value="notable">
+            <label for="notable">Notable Pre Surgical Elements</label>
+
+
+            <input type="checkbox" id="Swelling" name="Swelling" value="Swelling">
+            <label for="Swelling">Swelling</label>
+
+
+
+            <input type="checkbox" id="SinusTract" name="SinusTract" value="SinusTract">
+            <label for="SinusTract">Sinus Tract</label>
+
+
+
+
+        </form>
+    </div>
+
+
+
+
+    <!--     Periodontal & Mucosal Examination
+        -->
+
+
+    <h2>Radiological Examination
+        Coronary radiological examination
+
+    </h2>
+
+    <button type="button" class="collapsible spacer">Click Here</button>
+    <div class="content">
+        <form action="#" style="padding-top: 10px;">
+
+            <input type="checkbox" id="PulpStone" name="PeriodontalProbing" value="PeriodontalProbing">
+            <label for="PeriodontalProbing">Pulp Stone</label>
+
+
+            <input type="checkbox" id="Reducedfloorthickness" name="Reducedfloorthickness"
+                value="Reducedfloorthickness">
+            <label for="Reducedfloorthickness">Reduced floor thickness</label>
+
+
+            <input type="checkbox" id="PulpChamber" name="PulpChamber" value="PulpChamber">
+            <label for="PulpChamber">Reduced pulp chamber</label>
+
+            <input type="checkbox" id="LossPulp" name="LossPulp" value="LossPulp">
+            <label for="LossPulp">Substance loss near pulp</label>
+
+
+
+
+
+
+
+
+        </form>
+    </div>
+
+
+
+    <!--
+
+    Root Level Radiological Examination
+
+-->
+
+    <h2>Root Level Radiological Examination
+
+    </h2>
+
+    <button type="button" class="collapsible spacer">Click Here</button>
+    <div class="content">
+        <form action="#" style="padding-top: 10px;">
+
+            <input type="checkbox" id="RootFracture" name="RootFracture" value="RootFracture">
+            <label for="RootFracture">Root Fracture</label>
+
+
+            <input type="checkbox" id="ImageCrack" name="ImageCrack" value="ImageCrack">
+            <label for="ImageCrack">Image corresponding to crack</label>
+
+
+            <input type="checkbox" id="Significantcurvature" name="Significantcurvature" value="Significantcurvature">
+            <label for="Significantcurvature">Significant Curvature</label>
+
+            <input type="checkbox" id="Sshaped" name="Sshaped" value="Sshaped">
+            <label for="Sshaped">S-shaped</label>
+
+            <input type="checkbox" id="ShapedCanal" name="ShapedCanal" value="ShapedCanal">
+            <label for="ShapedCanal">C shaped canal</label>
+
+
+            <input type="checkbox" id="CanalObliteration" name="CanalObliteration" value="CanalObliteration">
+            <label for="CanalObliteration">Canal Obliteration</label>
+
+            <input type="checkbox" id="Immaturetooth" name="Immaturetooth" value="Immaturetooth">
+            <label for="Immaturetooth">Immature Tooth</label>
+
+
+
+        </form>
+    </div>
+
+
+
+
+    <!--
+
+    Radiological Examination of the treated tooth
+
+
+-->
+
+
+
+
+    <h2>Radiological Examination of the treated tooth
+
+
+    </h2>
+
+    <button type="button" class="collapsible spacer">Click Here</button>
+    <div class="content">
+        <form action="#" style="padding-top: 10px;">
+
+            <input type="checkbox" id="treatmentQuality" name="treatmentQuality" value="treatmentQuality">
+            <label for="treatmentQuality">Quality of treatment</label>
+
+
+            <input type="checkbox" id="RootAnchorage" name="RootAnchorage" value="RootAnchorage">
+            <label for="RootAnchorage">Root Anchorage</label>
+
+
+            <input type="checkbox" id="WrongWay" name="WrongWay" value="WrongWay">
+            <label for="WrongWay">Wrong Way</label>
+
+            <input type="checkbox" id="FracturedInstrument" name="FracturedInstrument" value="FracturedInstrument">
+            <label for="FracturedInstrument">Fractured Instrument</label>
+
+            <input type="checkbox" id="SilverCone" name="SilverCone" value="SilverCone">
+            <label for="SilverCone">Silver Cone</label>
+
+
+            <input type="checkbox" id="Pertoration" name="Pertoration" value="Pertoration">
+            <label for="Pertoration">Pertoration</label>
+
+            <input type="checkbox" id="ApicalResection" name="ApicalResection" value="ApicalResection">
+            <label for="ApicalResection">Apical Resection</label>
+
+
+
+
+        </form>
+    </div>
+
+
+    <!--
+
+    Pulp Diagnosis
+
+
+
+-->
+
+    <h2>Pulp Diagnosis
+
+
+    </h2>
+
+    <button type="button" class="collapsible spacer">Click Here</button>
+    <div class="content">
+        <form action="#" style="padding-top: 10px;">
+
+            <input type="checkbox" id="HealthyPulp" name="HealthyPulp" value="HealthyPulp">
+            <label for="HealthyPulp">Healthy Pulp</label>
+
+
+            <input type="checkbox" id="ReversiblePulpitis" name="ReversiblePulpitis" value="ReversiblePulpitis">
+            <label for="ReversiblePulpitis">Reversible Pulpitis</label>
+
+
+            <input type="checkbox" id="Symptomatic" name="Symptomatic" value="Symptomatic">
+            <label for="Symptomatic">Symptomatic ireversible pulpitis</label>
+
+            <input type="checkbox" id="Asymptomatic" name="Asymptomatic" value="Asymptomatic">
+            <label for="Asymptomatic">Asymptomatic ireversible pulpitis</label>
+
+            <input type="checkbox" id="Necrotic" name="Necrotic" value="Necrotic">
+            <label for="Necrotic">Necrotic</label>
+
+
+            <input type="checkbox" id="TreatedByME" name="TreatedByME" value="TreatedByME">
+            <label for="TreatedByME">Tooth Treated by Me</label>
+
+            <input type="checkbox" id="TreatedByAnother" name="TreatedByAnother" value="TreatedByAnother">
+            <label for="TreatedByAnother">Tooth treated by another practitioner</label>
+
+            <input type="checkbox" id="TreatmentInitiated" name="TreatmentInitiated" value="TreatmentInitiated">
+            <label for="TreatmentInitiated">Treatment Initiated</label>
+
+
+
+
+            <input type="checkbox" id="UncertainPuri" name="UncertainPuri" value="UncertainPuri">
+            <label for="UncertainPuri">Uncertain puri-radiular conditions</label>
+
+
+
+
+        </form>
+    </div>
+
+
+
+
+
+    <!--
+
+    Pulp Diagnosis
+
+
+
+-->
+
+    <h2>Other Diagnosis
+
+
+    </h2>
+
+    <button type="button" class="collapsible spacer">Click Here</button>
+    <div class="content">
+        <form action="#" style="padding-top: 10px;">
+
+            <input type="checkbox" id="DentinSensitiviness" name="DentinSensitiviness" value="DentinSensitiviness">
+            <label for="DentinSensitiviness">Dentin Sensitiviness</label>
+
+
+            <input type="checkbox" id="Sinusitis" name="Sinusitis" value="Sinusitis">
+            <label for="Sinusitis">Sinusitis</label>
+
+
+            <input type="checkbox" id="Cellulitis" name="Cellulitis" value="Cellulitis">
+            <label for="Cellulitis">Cellulitis</label>
+
+            <input type="checkbox" id="Mixilary" name="Mixilary" value="Mixilary">
+            <label for="Mixilary">Maxilary bone lesions</label>
+
+            <input type="checkbox" id="Salivary" name="Salivary" value="Salivary">
+            <label for="Salivary">Salivary gland disease</label>
+
+            <select name="condition" id="condition">
+                <option value="volvo">Healed</option>
+                <option value="saab">Healing</option>
+                <option value="opel">Uncertain</option>
+                <option value="audi">Failure</option>
+            </select>
+
+
+
+
+        </form>
+    </div>
+
+
+
+    <!--
+
+    Local Periodontal Diagnosis
+
+
+
+-->
+    <h2>Local Periodontal Diagnosis
+
+
+
+    </h2>
+
+    <button type="button" class="collapsible spacer">Click Here</button>
+    <div class="content">
+        <form action="#" style="padding-top: 10px;">
+
+            <input type="checkbox" id="Gingivitis" name="Gingivitis" value="Gingivitis">
+            <label for="Gingivitis">Gingivitis
+            </label>
+
+
+            <input type="checkbox" id="Periodontitis" name="Periodontitis" value="Periodontitis">
+            <label for="Periodontitis">Periodontitis</label>
+
+
+            <input type="checkbox" id="PeriodontalAbscess" name="PeriodontalAbscess" value="PeriodontalAbscess">
+            <label for="PeriodontalAbscess">Periodontal Abscess</label>
+
+            <input type="checkbox" id="FurcationInvolvement" name="FurcationInvolvement" value="FurcationInvolvement">
+            <label for="FurcationInvolvement">Furcation Involvement</label>
+
+            <input type="checkbox" id="Lndo" name="Lndo" value="Lndo">
+            <label for="Lndo">Lndo periodontal lesion</label>
+
+
+            <input type="checkbox" id="Ankylosis" name="Ankylosis" value="Ankylosis">
+            <label for="Ankylosis">Ankylosis</label>
+
+            <input type="checkbox" id="Recession" name="Recession" value="Recession">
+            <label for="Recession">Recession</label>
+
+        </form>
+    </div>
+
+    <!--
+
+    Prognosis
+
+-->
+
+
+
+    <h2>Prognosis
+
+
+
+    </h2>
+    <button type="button" class="butoni">
+
+        <p>Add Propsed Treatment</p>
+    </button>
+
+
+
+    <button type="button" class="collapsible spacer">Click Here</button>
+    <div class="content">
+        <form action="#" style="padding-top: 10px;">
+
+
+            <form action="#">
+
+                <select name="endodontio" id="endodontio">
+                    <option value="" selected="" disabled="" hidden="">Endodontio</option>
+                    <option value="Reserved">Reserved</option>
+                    <option value="Uncertain">Uncertain</option>
+                    <option value="Non Conservable">Non Conservable</option>
+                </select>
+
+
+
+
+
+
+            </form>
+
+
+
+
+            <select name="mechanical" id="mechanical" class="form-select">
+                <option value="" selected="" disabled="" hidden="">Mechanical</option>
+                <option value="Good">Goo</option>
+                <option value="Reserved">Reserved</option>
+                <option value="Uncertain">Uncertain</option>
+                <option value="Non Conservable">Non Conservable</option>
+            </select>
+
+
+
+            <select name="perlodontal" id="perlodontal" class="form-select">
+                <option value="" selected="" disabled="" hidden="">Perlodontal</option>
+                <option value="Good">Goo</option>
+                <option value="Reserved">Reserved</option>
+                <option value="Uncertain">Uncertain</option>
+                <option value="Non Conservable">Non Conservable</option>
+            </select>
+
+
+            <select name="restauration" id="restauration" class="form-select">
+                <option value="" selected="" disabled="" hidden="">Restauration</option>
+                <option value="Good">Goo</option>
+                <option value="Reserved">Reserved</option>
+                <option value="Uncertain">Uncertain</option>
+                <option value="Non Conservable">Non Conservable</option>
+            </select>
+
+        </form>
+    </div>
+
+
+
+
+    <!--
+    Pretreatments
+-->
+
+
+    <h2>Pretreatments</h2>
+    <button type="button" class="collapsible spacer">Click Here</button>
+    <div class="content">
+        <form action="#" style="padding-top: 10px;">
+
+            <input type="checkbox" id="InitialOrthograde" name="InitialOrthograde" value="InitialOrthograde">
+            <label for="InitialOrthograde">Initial Orthograde
+            </label>
+
+
+            <input type="checkbox" id="CrownRemoval" name="CrownRemoval" value="CrownRemoval">
+            <label for="CrownRemoval">Crown Removal</label>
+
+
+            <input type="checkbox" id="AbutmentRemoval" name="AbutmentRemoval" value="AbutmentRemoval">
+            <label for="AbutmentRemoval">Abutment Removal</label>
+
+            <input type="checkbox" id="PeriodontalTreatment" name="PeriodontalTreatment" value="PeriodontalTreatment">
+            <label for="PeriodontalTreatment">Periodontal Treatment</label>
+
+            <input type="checkbox" id="endodontic" name="endodontic" value="endodontic">
+            <label for="endodontic">Pre endodontic reconstruction</label>
+
+
+            <input type="checkbox" id="LndonticGuide" name="LndonticGuide" value="LndonticGuide">
+            <label for="LndonticGuide">Lndontic Guide</label>
+
+
+
+        </form>
+    </div>
+
+
+    <!--
+Post treatments
+-->
+
+
+    <h2>Post treatments</h2>
+    <button type="button" class="collapsible spacer">Click Here</button>
+    <div class="content">
+        <form action="#" style="padding-top: 10px;">
+
+            <input type="checkbox" id="Composite" name="Composite" value="Composite">
+            <label for="Composite">Composite
+            </label>
+
+
+            <input type="checkbox" id="ProstheticRestoration" name="ProstheticRestoration"
+                value="ProstheticRestoration">
+            <label for="ProstheticRestoration">Prosthetic Restoration</label>
+
+
+            <input type="checkbox" id="CoronaryRootReconstructio" name="CoronaryRootReconstructio"
+                value="CoronaryRootReconstructio">
+            <label for="CoronaryRootReconstructio">Coronary Root Reconstructio</label>
+
+            <input type="checkbox" id="TemporaryRestoration" name="TemporaryRestoration" value="TemporaryRestoration">
+            <label for="TemporaryRestoration">Temporary Restoration</label>
+
+            <input type="checkbox" id="InternalBleaching" name="InternalBleaching" value="InternalBleaching">
+            <label for="InternalBleaching">Internal Bleaching</label>
+
+
+            <input type="checkbox" id="PeriodontalTreatment" name="PeriodontalTreatment" value="PeriodontalTreatment">
+            <label for="PeriodontalTreatment">Periodontal Treatment</label>
+
+            <input type="checkbox" id="Orthodontics" name="Orthodontics" value="Orthodontics">
+            <label for="Orthodontics">Orthodontics</label>
+
+
+
+
+            <input type="checkbox" id="SelectedProposition" name="SelectedProposition" value="SelectedProposition">
+            <label for="SelectedProposition">Selected Proposition</label>
+
+
+
+
+
+
+
+        </form>
+
+
+    </div>
+
+    <input type="checkbox" id="End" name="end" value="end">
+    <label for="end">End of follow up</label><br>
+
+
+    <div>
+        <label>Recession</label>
+        <input type="text" id="recession_tooth" name="recession_tooth">
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible", "Examination");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
+
+</body>
+
+</html>
